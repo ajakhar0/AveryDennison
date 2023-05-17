@@ -1,0 +1,356 @@
+.logo {
+    
+    /* margin-left: 141px; */
+width: 262px;
+height: 88px;
+opacity: 1;
+}
+
+
+.col {
+    padding: 0;
+    margin: 0;
+}
+.bg1 {
+    background-image: url('../img/bg1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 40px;
+    
+
+}
+
+@media (max-width: 766px) {
+    .bg2 {
+        background-image: url('../img/bg21.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 90%;
+
+    }
+}
+@media (min-width: 767px) { 
+    .bg2 {
+        background-image: url('../img/bg2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 20px;
+    
+    }
+ } 
+
+ @media (max-width: 480px) {
+    .bg1 {
+        background-image: url('../img/bg11.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 90%;
+
+    }
+}
+@media (min-width: 481px) { 
+    .bg1 {
+        background-image: url('../img/bg1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 20px;
+    
+    }
+ } 
+
+ @media (max-width: 480px) {
+    .textrespo {
+        height: 50%;
+        margin-bottom: 50%;
+        
+
+    }
+}
+
+@media (max-width: 700px) {
+    .row, .textrespo {   
+      flex-direction: column;
+    }
+  }
+
+.buttoninq {
+    width: 180px;
+    height: 50px;
+    border-radius: 5%;
+    border: none;
+    background-color: #F26621;
+    margin: 0 0px 30px 30px;
+
+}
+.buttoncall {
+    width: 280px;
+    height: 50px;
+    border-radius: 5%;
+    border: none;
+    background-color: #F26621;
+    margin: 0 0px 30px 30px;
+
+}
+
+
+@media (max-width: 767px) {
+    .bg3 {
+        background-image: url('../img/bg31.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        padding-bottom: 100vh;
+    
+    }
+}
+@media (min-width: 768px) {
+    .bg3 {
+        background-image: url('../img/bg3.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 20px;
+    
+    }
+}
+
+/*   */
+
+
+.why {
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imgicon {
+    width: 40px;
+    height: 52px;
+    margin: 15px 18px;
+}
+.t1 {
+    
+/* margin-left: 141px; */
+margin: 50px 0 0px 10px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 51px/64px Aktifo A;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+/* .t3 {
+    margin: 20px 0 20px 0;
+}
+.t4 {
+    margin: 20px 0 20px 0px;
+} */
+.ul {
+    list-style: none;
+    /* margin-left: 141px; */
+    
+}
+    
+    .li {
+      display: inline-block;
+      background-color: black;
+      margin: 5%;
+      width: 80px;
+height: 80px;
+      border-radius: 50%;
+    }
+    .i2 {
+        display: inline-block;
+        background-color: black;
+        margin: 5%;
+        width: 80px;
+  height: 80px;
+        border-radius: 50%;
+      }
+      
+      .i3 {
+        display: inline-block;
+        background-color: black;
+        /* margin: 5%; */
+        width: 80px;
+  height: 80px;
+        border-radius: 50%;
+      }
+      .i1 {
+        
+        display: table-cell;
+        vertical-align: middle; 
+        text-align: center; 
+        margin: 15px 20px;
+        width: 38px;
+        height: 51px;  
+        
+        &, &:hover, &:active {
+          text-decoration: none;
+        }
+      }
+    
+  
+.list {
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+
+
+.t2 {
+    /* margin-left: 141px; */
+    margin: 10px 0 10px 0;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 34px/41px Aktifo A;
+letter-spacing: 0px;
+color: #292929;
+opacity: 1;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.footerd {
+    color: white; 
+    padding: 30px 10px 20px 0px;
+    
+}
+
+.afooter {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+    
+
+
+
+
+
+  
+
+  @media (max-width: 768px) {
+    .form-popup {
+    
+        position: fixed;
+        top: 10px;
+        left: 10%;
+        padding: 20px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+        width: 80%;
+        background-color: white;
+        text-align: left;
+        overflow: hidden;
+        overflow-y: scroll;
+        
+      }
+}
+@media (min-width: 768px) {
+    .form-popup {
+        background-color: white;
+        position: absolute;
+        top: 10px;
+        left: 60%;
+        padding: 20px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+        width: 40%;
+        text-align: left;
+        
+        overflow-y: hidden;
+        
+      }
+}
+
+input[type=text], input[type=mail], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+
+
+
+  /* //fonts */
+
+
+  @font-face {
+    font-family: "aktifoa";
+    src: url("../fonts/aktifoa-bold.otf");
+    src: url("../fonts/aktifoa-book.otf");
+    src: url("../fonts/aktifoa-boldoblique.otf");
+    src: url("../fonts/aktifoa-bookoblique.otf");
+    src: url("../fonts/aktifoa-light.otf");
+    src: url("../fonts/aktifoa-lightoblique.otf");
+    src: url("../fonts/aktifoa-medium.otf");
+    src: url("../fonts/aktifoa-mediumoblique.otf");
+    src: url("../fonts/aktifoa-semiboldoblique.otf");
+    src: url("../fonts/aktifoa-semibold.otf");
+    
+    }
+
+   
+
+  
